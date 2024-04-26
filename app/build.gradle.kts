@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.core)
     ksp(libs.ksp)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 // V2 only: for bottom sheet destination support, also add
     implementation(libs.bottom.sheet)
     testImplementation(libs.junit)
